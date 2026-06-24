@@ -1,6 +1,6 @@
 [project]
 name = "buf-view"
-version = "0.1.1"
+version = "0.1.2"
 description = "Memory reuse, initialization and reshape helper for NumPy."
 authors = [{name = "Vicomtech Foundation, Basque Research and Technology Alliance", email = "tech.transfer@vicomtech.org"}]
 requires-python = ">=3.10"
