@@ -2,7 +2,7 @@
 
 A memory reutilization helper for NumPy.
 
-<img src="https://github.com/kovalp/buf-view/blob/main/assets/logo-buf-view.svg" width="159" alt="logo">
+<img src="https://raw.githubusercontent.com/kovalp/buf-view/main/assets/logo-buf-view.svg" width="128" alt="logo">
 
 The idea is to keep a NumPy array allocated and grow it whenever the user asks more memory. The helper features dynamic type hints, initialization and reshape facilities.  
 
