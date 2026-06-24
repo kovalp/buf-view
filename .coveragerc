@@ -1,0 +1,10 @@
+[run]
+source = src/buf_view
+omit = test/*
+
+[report]
+show_missing = true
+skip_empty = true
+skip_covered = true
+sort = Miss
+ignore_errors = true

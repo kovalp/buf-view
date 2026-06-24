@@ -1,0 +1,44 @@
+[project]
+name = "buf-view"
+version = "0.1.0"
+description = "Memory reuse, initialization and reshape helper for NumPy."
+authors = [{name = "Vicomtech Foundation, Basque Research and Technology Alliance", email = "tech.transfer@vicomtech.org"}]
+requires-python = ">=3.8"
+readme = "README.md"
+dependencies = [
+    "numpy",
+]
+maintainers = [
+    { name = "Peter Koval", email = "koval.peter@gmail.com" }
+]
+keywords = ["allocation", "memory", "buffer", "array", "reshape"]
+
+[tool.uv]
+package = true
+
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "bump-my-version",
+    {include-group = "test"},
+    {include-group = "type-lint"},
+]
+test = [
+    "pytest",
+    "pytest-cov",
+    "pytest-mock",
+]
+type-lint = [
+    "ruff>=0.15.9",
+    "ty>=0.0.29",
+]
+
+[tool.hatch.metadata]
+readme = ["README.md", "CHANGELOG.md"]
+
+[project.urls]
+Repository = "https://github.com/kovalp/buf-view"
+ChangeLog = "https://github.com/kovalp/buf-view/blob/main/CHANGELOG.md"

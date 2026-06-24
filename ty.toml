@@ -1,0 +1,13 @@
+[terminal]
+output-format = "concise"
+
+[environment]
+python-version = "3.11"
+
+[rules]
+possibly-missing-import = "ignore"
+possibly-unresolved-reference = "ignore"
+no-matching-overload = "ignore"
+
+[src]
+exclude = ["test/**/*"]
