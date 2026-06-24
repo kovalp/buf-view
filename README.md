@@ -6,6 +6,7 @@ A memory reutilization helper for NumPy.
 
 The idea is to keep a NumPy array allocated and grow it whenever the user asks more memory. The helper features dynamic type hints, initialization and reshape facilities.  
 
+
 ## License
 
 MIT
